@@ -5,7 +5,7 @@ const Time = ({ time }) => {
     dateStyle: "medium",
     timeStyle: "medium",
   }).format(new Date(time));
-  return <span className="text-[14px]">{date}</span>;
+  return <span className="text-[12px] md:text-[13px]">{date}</span>;
 };
 
 export default Time

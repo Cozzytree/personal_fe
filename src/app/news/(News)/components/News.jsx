@@ -1,7 +1,7 @@
 import Time from "@/components/time";
-import { ReloadIcon } from "@radix-ui/react-icons";
 import Image from "next/image";
 import Link from "next/link";
+import { ReloadIcon } from "@radix-ui/react-icons";
 import { Suspense } from "react";
 
 const News = async () => {
