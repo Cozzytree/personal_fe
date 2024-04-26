@@ -43,8 +43,8 @@ const Post = ({ post }) => {
             <CardContent>
               <Image
                 src={"/ms.jpg"}
-                width={100}
-                height={100}
+                width={400}
+                height={400}
                 alt="post"
                 className="w-full rounded-sm"
               />
